@@ -34,25 +34,19 @@
     
     ps -ef | grep docker
 
-## Below are few General Commands
-
-## To list Docker images on your system, you can use the docker images command. Open your terminal or command prompt and simply type:
-    
+## Below are few General Commands  
     docker images
-## The docker ps command is used to list the currently running Docker containers. If you want to list all containers (including those that have stopped)
-
     docker ps
-##  This command will display a list of all running Docker containers along with their container IDs, names, images they are based on, status, and other details. If there are no running containers, it will return an empty list.
-    
-    docker ps -a
-    
+    docker ps -a  
     docker run -it centos:7
     docker run -it -d centos:7
+    
     docker exec -it ab4ecf7fc858
          docker exec -it ab4ecf7fc858 uname -a
          docker exec -it ab4ecf7fc858 hostname
          docker exec -it ab4ecf7fc858 hostname -I
          docker exec -it ab4ecf7fc858 /bin/bash
+    
     docker run -it -d --name server1 centos:7
     docker stop server2
     docker start server2
