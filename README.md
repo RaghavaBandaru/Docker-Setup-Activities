@@ -9,8 +9,7 @@
     sudo yum search docker
     
     sudo amazon-linux-extras list
-    
-    
+        
     sudo amazon-linux-extras install docker
     
     docker version
